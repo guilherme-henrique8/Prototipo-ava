@@ -1,0 +1,87 @@
+/* Importa a fonte Inter (caso você queira garantir via CSS também) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8fafc;
+  color: #333;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #10b981, #3b82f6);
+  color: #fff;
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #fff;
+  color: #10b981;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #e6f4f1;
+}
+
+/* Section Styles */
+section {
+  padding: 4rem 1rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+/* Feature Icons */
+.feature-item i {
+  color: #10b981;
+  margin-right: 0.5rem;
+}
+
+/* Testimonial */
+blockquote {
+  background-color: #e2e8f0;
+  padding: 1.5rem;
+  border-left: 5px solid #10b981;
+  font-style: italic;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #1f2937;
+  color: #ccc;
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+/* Contato */
+form .form-control {
+  font-size: 1rem;
+  padding: 0.75rem;
+}
+
+form button {
+  font-size: 1rem;
+  font-weight: 600;
+}
