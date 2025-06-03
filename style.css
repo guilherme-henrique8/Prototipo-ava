@@ -1,4 +1,4 @@
-/* Importa a fonte Inter (caso você queira garantir via CSS também) */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 body {
@@ -7,7 +7,7 @@ body {
   color: #333;
 }
 
-/* Hero Section */
+
 .hero {
   background: linear-gradient(135deg, #10b981, #3b82f6);
   color: #fff;
@@ -40,7 +40,7 @@ body {
   background-color: #e6f4f1;
 }
 
-/* Section Styles */
+
 section {
   padding: 4rem 1rem;
 }
@@ -51,13 +51,13 @@ section {
   margin-bottom: 2rem;
 }
 
-/* Feature Icons */
+
 .feature-item i {
   color: #10b981;
   margin-right: 0.5rem;
 }
 
-/* Testimonial */
+
 blockquote {
   background-color: #e2e8f0;
   padding: 1.5rem;
@@ -66,7 +66,7 @@ blockquote {
   border-radius: 5px;
 }
 
-/* Footer */
+
 footer {
   background-color: #1f2937;
   color: #ccc;
@@ -75,7 +75,7 @@ footer {
   font-size: 0.95rem;
 }
 
-/* Contato */
+
 form .form-control {
   font-size: 1rem;
   padding: 0.75rem;
